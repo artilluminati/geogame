@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+}
+
+.card img{
+    object-fit: cover;
+    max-height: 160px;
+    width: 100%;
+}
+
+h1 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10vmax;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
+  }
+
+
+.region-title{
+    color: #000;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    --vh: 100vh;
+    height: 100px;
+    max-height: 100px;
+}
+
+.test-title{
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.test-example{
+    color: #000 !important;
+}
