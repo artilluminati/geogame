@@ -1,5 +1,5 @@
 var requestURL =
-  "https://raw.githubusercontent.com/artilluminati/geogame/main/coderegions.json";
+  "https://raw.githubusercontent.com/artilluminati/geogame/main/gitfiles/coderegions.json";
 
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
